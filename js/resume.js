@@ -21,7 +21,7 @@ alert("Thanks For Watching :)")
     var element = $(".text-affect");
     $(function () {
         element.typed({
-            strings: ["Traveller", "Developer", "Fitnessfreaker","Bookwormer","Software Developer"],
+            strings: ["Welcome to My Travel Blog"],
             loop: true,
             typeSpeed: 90
         });
