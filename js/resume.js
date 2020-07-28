@@ -1,14 +1,14 @@
 //</script><script type="text/babel">
 //Created by Arafat Hossain
 //Javascript codes start here
-alert("Be patient it will take some times to load everything.")
+//alert("Be patient it will take some times to load everything.")
 $(document).ready(function () {
     'use strict';
 
-    setTimeout(function () {
-        $('.loader_bg').fadeToggle();
-    }, 1500);
-alert("Thanks For Watching :)")
+//     setTimeout(function () {
+//         $('.loader_bg').fadeToggle();
+//     }, 1500);
+// alert("Thanks For Watching :)")
     $(window).on('scroll', function () {
         if ($(document).scrollTop() > 200) {
             $(".navbar").css({ "background-color": "#ffffff", "transition": "all 0.8s ease-in-out", "box-shadow": "0px 3px 4.6px 0.3px rgba(0, 0, 0, 0.25)" });
